@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+}
+
+html{
+  background-color: @background;
+}
+
+html,body{
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+  font-family: Roboto;
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  //margin-bottom: 16px;
+  text-align: center;
+
+
+}
+
+#wrapper{
+
+  width: 100%;
+}
+
+.splash{
+  height: 1000px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+
+  //fix center text
+  .splashContent{
+    height: 100%;
+    width: 100%;
+
+    //display: flex;
+    //position: center;
+    //align-items: center;
+    //justify-content: center;
+
+
+    line-height: 250px;
+    top: 0;
+
+
+    //margin-top: 100px;
+    //position: absolute;
+    //text-align: center;
+
+
+
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: @mainFont;
+    background-color: rgba(89, 72, 150, 0.65);
+  }
+}
+
+.full{
+min-height: 300px;
+  background-color: @fullContent;
+  color: @contentFont;
+
+
+    p{
+      padding: 100px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      width: 75%;
+      text-align: center;
+
+
+
+    }
+
+}
+
+.content{
+
+  min-height: 300px;
+  background-color: @halfContent;
+  color: @contentFont;
+
+
+  .box{
+    width: 500px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 50px;
+
+    display: inline-block;
+
+    justify-content: center;
+    align-items:center;
+
+    border-radius: 10px;
+    background-color: @fullContent;
+    color: @contentFont;
+
+    //h1, h3{
+    //  text-align: center;
+    //}
+
+    .imgBox{
+      border: 3px @mainFont solid;
+      border-radius: 10px;
+      width: 90%;
+      height: 300px;
+      position: relative;
+      overflow: hidden;
+      justify-content: center;
+      align-items:center;
+
+
+
+
+
+    }
+  }
+
+}
